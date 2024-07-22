@@ -1,0 +1,22 @@
+name: gds
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.19
+  - pandas
+  - geopandas
+  - numpy
+  - matplotlib
+  - plotly
+  - folium
+  - libpysal
+  - esda
+  - splot
+  - scikit-learn
+  - spreg
+  - leafmap
+  - pip
+  - pip:
+      - libpysal
+      - splot
